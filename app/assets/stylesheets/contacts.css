@@ -1,0 +1,28 @@
+.btn{
+	width: 6em;
+    height: 4em;
+}
+
+.screen{
+	height: 50vh;
+}
+
+@media only screen and (max-width: 720px) {
+    .input-number{
+    	width: 110%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .input-number{
+    	width: 80%;
+    }
+    
+}
+
+.check-screen{
+	background-color: aliceblue;
+	height:28em;
+	margin-top: 20%;	
+}
+
